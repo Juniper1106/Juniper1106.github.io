@@ -767,7 +767,7 @@ audio {
 .singleOpt input,
 .multiOpt input,
 .multiTag input {
-  /* display: none; */
+  display: none;
 }
 
 .optQuestion {
