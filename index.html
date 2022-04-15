@@ -7,7 +7,6 @@
     <title>Dream Symphony</title>
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/node_modules/animate.css/animate.css" />
     <script src="/js/jquery-3.6.0.min.js"></script>
     <link
       rel="stylesheet"
@@ -21,14 +20,14 @@
 
     <!-- logo -->
     <div class="logo" id="logo">
-      <img src="/images/logo.png" />
+      <img src="/images/logo.png" alt="This is the logo of the website" />
     </div>
 
     <!-- video -->
-    <video id="backVideo" loop src="/videos/cloudsea.mp4"></video>
+    <video id="backVideo" loop autoplay src="/videos/cloudsea.mp4"></video>
 
     <!-- page indicator -->
-    <section class="containerI hide" id="indicatorContainer">
+    <div class="containerI hide" id="indicatorContainer">
       <div class="indicatorGroup" id="indicatorGroup">
         <div class="pageIndicator" style="left: 0px" id="indicator"></div>
         <div class="pageIndicator" style="left: 34px" id="1"></div>
@@ -36,21 +35,21 @@
         <div class="pageIndicator" style="left: 102px" id="3"></div>
         <div class="pageIndicator" style="left: 136px" id="4"></div>
       </div>
-    </section>
+    </div>
 
     <!-- home page -->
     <div class="homeContent" id="page0">
       <div>
         <h1>
-          让你的梦境来到现实
-          <p class="subTitle">MAKE YOUR DREAM COME TRUE</p>
+          让你的梦境来到现实<br /><br />
+          <span class="subTitle">MAKE YOUR DREAM COME TRUE</span>
         </h1>
       </div>
       <button class="homeBtn" id="homeBtn">开始体验</button>
     </div>
 
     <!-- question page -->
-    <section class="containerQ hide" id="page1-1">
+    <div class="containerQ hide" id="page1-1">
       <div class="question" id="question1-1">
         <h2>为您首先想到的梦境起个名字吧</h2>
         <div class="titleInputGroup">
@@ -69,15 +68,15 @@
           <div class="line"></div>
         </div>
       </div>
-      <section class="containerB" id="bottomBtn1-1">
+      <div class="containerB" id="bottomBtn1-1">
         <div class="bottomBtnContainer">
           <button class="btn--small next" id="next1-1"></button>
           <button class="btn--large back" id="backBtnInPage1">返回</button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page1-2">
+    <div class="containerQ hide" id="page1-2">
       <div class="question" id="question1-2">
         <h2>用一句话简要描述您的梦境...</h2>
         <div class="descInputGroup">
@@ -98,17 +97,17 @@
           >
         </div>
       </div>
-      <section class="containerB" id="bottomBtn1-2">
+      <div class="containerB" id="bottomBtn1-2">
         <div class="bottomBtnContainer">
           <button class="btn--large continue" id="continueBtnInPage1">
             继续
           </button>
           <button class="btn--small prev" id="prev1-2"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page2-1">
+    <div class="containerQ hide" id="page2-1">
       <div class="optQuestion grid-2x5" id="question2-1">
         <h2>该梦境对于您来说属于...</h2>
         <div id="opt2-1-1" class="singleOpt group2-1">
@@ -145,15 +144,15 @@
           *请选择<span class="lastLetterNoSpacing">*</span>
         </p>
       </div>
-      <section class="containerB" id="bottomBtn2-1">
+      <div class="containerB" id="bottomBtn2-1">
         <div class="bottomBtnContainer">
           <button class="btn--small next" id="next2-1"></button>
           <button class="btn--large back" id="backBtnInPage2">返回</button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page2-2">
+    <div class="containerQ hide" id="page2-2">
       <div class="optQuestion grid-2x5" id="question2-2">
         <h2>您在梦中的视角是...</h2>
         <div></div>
@@ -179,15 +178,15 @@
           不记得<span class="lastLetterNoSpacing">了</span>
         </button>
       </div>
-      <section class="containerB" id="bottomBtn2-2">
+      <div class="containerB" id="bottomBtn2-2">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev2-2"></button>
           <button class="btn--small next" id="next2-2"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page2-3">
+    <div class="containerQ hide" id="page2-3">
       <div class="question" id="question2-3">
         <h2>该梦境的现实原型是...</h2>
         <div class="descInputGroup">
@@ -203,15 +202,15 @@
           跳<span class="lastLetterNoSpacing">过</span>
         </button>
       </div>
-      <section class="containerB" id="bottomBtn2-3">
+      <div class="containerB" id="bottomBtn2-3">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev2-3"></button>
           <button class="btn--small next" id="next2-3"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page2-4">
+    <div class="containerQ hide" id="page2-4">
       <div class="optQuestion grid-2x2" id="question2-4">
         <h2>您是否多次或反复梦见类似梦境？</h2>
         <div id="opt2-4-1" class="singleOpt group2-4">
@@ -226,17 +225,17 @@
           *请选择<span class="lastLetterNoSpacing">*</span>
         </p>
       </div>
-      <section class="containerB" id="bottomBtn2-4">
+      <div class="containerB" id="bottomBtn2-4">
         <div class="bottomBtnContainer">
           <button class="btn--large continue" id="continueBtnInPage2">
             继续
           </button>
           <button class="btn--small prev" id="prev2-4"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page3-1">
+    <div class="containerQ hide" id="page3-1">
       <div class="question" id="question3-1">
         <h2>该梦境中的主要角色有...</h2>
         <div class="descInputGroup">
@@ -253,15 +252,15 @@
           *请填写<span class="lastLetterNoSpacing">*</span>
         </p>
       </div>
-      <section class="containerB" id="bottomBtn3-1">
+      <div class="containerB" id="bottomBtn3-1">
         <div class="bottomBtnContainer">
           <button class="btn--small next" id="next3-1"></button>
           <button class="btn--large back" id="backBtnInPage3">返回</button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page3-2">
+    <div class="containerQ hide" id="page3-2">
       <div class="optQuestion grid-2x3" id="question3-2">
         <h2>上述角色之间的关系是...</h2>
         <div></div>
@@ -291,15 +290,15 @@
           *请填写<span class="lastLetterNoSpacing">*</span>
         </p>
       </div>
-      <section class="containerB" id="bottomBtn3-2">
+      <div class="containerB" id="bottomBtn3-2">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev3-2"></button>
           <button class="btn--small next" id="next3-2"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page3-3">
+    <div class="containerQ hide" id="page3-3">
       <div class="question" id="question3-3">
         <h2>梦中的主要场景有...</h2>
         <div class="descInputGroup">
@@ -316,15 +315,15 @@
           *请填写<span class="lastLetterNoSpacing">*</span>
         </p>
       </div>
-      <section class="containerB" id="bottomBtn3-3">
+      <div class="containerB" id="bottomBtn3-3">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev3-3"></button>
           <button class="btn--small next" id="next3-3"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page3-4">
+    <div class="containerQ hide" id="page3-4">
       <div class="optQuestion grid-2x5" id="question3-4">
         <h2>梦中的天气是...</h2>
         <div id="opt3-4-1" class="multiOpt group3-4">
@@ -361,15 +360,15 @@
           不记得<span class="lastLetterNoSpacing">了</span>
         </button>
       </div>
-      <section class="containerB" id="bottomBtn3-4">
+      <div class="containerB" id="bottomBtn3-4">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev3-4"></button>
           <button class="btn--small next" id="next3-4"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page3-5">
+    <div class="containerQ hide" id="page3-5">
       <div class="optQuestion grid-2x5" id="question3-5">
         <h2>梦中的时间是...</h2>
         <div id="opt3-5-1" class="multiOpt group3-5">
@@ -406,15 +405,15 @@
           不记得<span class="lastLetterNoSpacing">了</span>
         </button>
       </div>
-      <section class="containerB" id="bottomBtn3-5">
+      <div class="containerB" id="bottomBtn3-5">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev3-5"></button>
           <button class="btn--small next" id="next3-5"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page3-6">
+    <div class="containerQ hide" id="page3-6">
       <div class="optQuestion grid-2x2" id="question3-6">
         <h2>梦中是否有超自然/超现实事物？</h2>
         <div id="opt3-6-1" class="singleOpt group3-6">
@@ -429,17 +428,17 @@
           *请选择<span class="lastLetterNoSpacing">*</span>
         </p>
       </div>
-      <section class="containerB" id="bottomBtn3-6">
+      <div class="containerB" id="bottomBtn3-6">
         <div class="bottomBtnContainer">
           <button class="btn--large continue" id="continueBtnInPage3">
             继续
           </button>
           <button class="btn--small prev" id="prev3-6"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page4-1">
+    <div class="containerQ hide" id="page4-1">
       <div class="optQuestion grid-4x6" id="question4-1">
         <h2>梦境中的正面情绪主要有...</h2>
         <div id="opt4-1-1" class="multiTag group4-1">
@@ -539,15 +538,15 @@
           <input id="4-1-16" name="group4-1" value="" type="checkbox" />
         </div>
       </div>
-      <section class="containerB" id="bottomBtn4-1">
+      <div class="containerB" id="bottomBtn4-1">
         <div class="bottomBtnContainer">
           <button class="btn--small next" id="next4-1"></button>
           <button class="btn--large back" id="backBtnInPage4">返回</button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page4-2">
+    <div class="containerQ hide" id="page4-2">
       <div class="optQuestion grid-4x6" id="question4-2">
         <h2>梦境中的负面情绪主要有...</h2>
         <div id="opt4-2-1" class="multiTag group4-2">
@@ -659,15 +658,15 @@
           <input id="4-2-18" name="group4-2" value="" type="checkbox" />
         </div>
       </div>
-      <section class="containerB" id="bottomBtn4-2">
+      <div class="containerB" id="bottomBtn4-2">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev4-2"></button>
           <button class="btn--small next" id="next4-2"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page4-3">
+    <div class="containerQ hide" id="page4-3">
       <div class="optQuestion grid-4x6" id="question4-3">
         <h2>梦境中的中性情绪主要有...</h2>
         <div id="opt4-3-1" class="multiTag group4-3">
@@ -761,15 +760,15 @@
           <input id="4-3-15" name="multi group4-3" value="" type="checkbox" />
         </div>
       </div>
-      <section class="containerB" id="bottomBtn4-3">
+      <div class="containerB" id="bottomBtn4-3">
         <div class="bottomBtnContainer">
           <button class="btn--small prev" id="prev4-3"></button>
           <button class="btn--small next" id="next4-3"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page4-4">
+    <div class="containerQ hide" id="page4-4">
       <div class="question" id="question4-4">
         <h2>其他需补充的主要情绪...</h2>
         <div class="descInputGroup">
@@ -785,17 +784,17 @@
           跳<span class="lastLetterNoSpacing">过</span>
         </button>
       </div>
-      <section class="containerB" id="bottomBtn4-4">
+      <div class="containerB" id="bottomBtn4-4">
         <div class="bottomBtnContainer">
           <button class="btn--large continue" id="continueBtnInPage4">
             继续
           </button>
           <button class="btn--small prev" id="prev4-4"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="page5-1">
+    <div class="containerQ hide" id="page5-1">
       <div class="question" id="question5-1">
         <h2>您是否有对该梦境内容的补充描述？</h2>
         <div class="descInputGroup">
@@ -811,35 +810,39 @@
           跳<span class="lastLetterNoSpacing">过</span>
         </button>
       </div>
-      <section class="containerB" id="bottomBtn5-1">
+      <div class="containerB" id="bottomBtn5-1">
         <div class="bottomBtnContainer">
           <button class="btn--small next" id="next5-1"></button>
           <button class="btn--large back" id="backBtnInPage5">返回</button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
 
-    <section class="containerQ hide" id="result">
+    <div class="containerQ hide" id="result">
       <div class="optQuestion grid-result" id="resultPage">
         <div class="frame">
-          <img class="genImg" src="/images/180.png" alt="" />
+          <img
+            class="genImg"
+            src="/images/180.png"
+            alt="This is an image generated from your dream contents"
+          />
         </div>
         <h2>幸福的港湾</h2>
         <textarea readonly id="resultTxt" class="resultTxt">
-    以前住过的地方
-    有一大片树林
-    还有老房子
-    在里面很开心的生活
-    梦里妈妈在忙活他的事情
-    我在静静的看着
-    很幸福的样子
-    梦里妈妈在忙活他的事情
-    我在静静的看着
-    很幸福的样子
+以前住过的地方
+有一大片树林
+还有老房子
+在里面很开心的生活
+梦里妈妈在忙活他的事情
+我在静静的看着
+很幸福的样子
+梦里妈妈在忙活他的事情
+我在静静的看着
+很幸福的样子
             </textarea
         >
       </div>
-      <section class="containerB containerB--result" id="bottomBtnResult">
+      <div class="containerB containerB--result" id="bottomBtnResult">
         <div class="audioContainer">
           <audio controls src="/music/Goldberg-Variationen.mp3"></audio>
         </div>
@@ -847,7 +850,7 @@
           <button class="btn--large complete" id="complete">完成</button>
           <button class="btn--small prev" id="prevInResultPage"></button>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
   </body>
 </html>

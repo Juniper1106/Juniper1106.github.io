@@ -1,5 +1,19 @@
 var pageFlag;
 $(document).ready(function () {
+  // detect device
+  //定义一个函数判断是手机端还是pc端
+  function isMobile() {
+    if (
+      window.navigator.userAgent.match(
+        /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+      )
+    ) {
+      return true; // mobile
+    } else {
+      return false; // PC
+    }
+  }
+
   // ---------------global function----------------
   // ···············count text··············
   function txtCount(txt) {
@@ -61,16 +75,19 @@ $(document).ready(function () {
   });
 
   // ---------------homePage---------------
-  // hover to play video
-  $(".homeBtn").hover(
-    function () {
-      $("#backVideo")[0].play();
-    },
-    function () {
-      $("#backVideo")[0].pause();
-    }
-  );
   pageFlag = 0;
+  // hover to play video
+  if (isMobile() == false) {
+    document.getElementById("backVideo").removeAttribute("autoplay");
+    $(".homeBtn").hover(
+      function () {
+        $("#backVideo")[0].play();
+      },
+      function () {
+        $("#backVideo")[0].pause();
+      }
+    );
+  }
   // to page1-1
   $("#homeBtn").click(function () {
     $("#backVideo").css("display", "none");
