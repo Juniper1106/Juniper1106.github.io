@@ -22,9 +22,12 @@ $(document).ready(function () {
     return len;
   }
   // ···············detect input················
-  hidePrompt = function () {
-    $("#prompt3-1, #prompt3-2, #prompt3-3").attr("class", "promptTag hide");
-  };
+  $("#character, #relation, #action, #scene").bind(
+    "input propertychange",
+    function () {
+      $("#prompt3-1, #prompt3-2, #prompt3-3").attr("class", "promptTag hide");
+    }
+  );
   // ···············radio button···············
   $(":radio").click(function () {
     $("#prompt2-1, #prompt2-4, #prompt3-6").attr("class", "promptTag hide");
@@ -113,12 +116,12 @@ $(document).ready(function () {
   // -------------page1----------------
   // ·············Q1-1·················
   // text change with length
-  getLenTitle = function () {
+  $("#dreamTitle").bind("input propertychange", function () {
     var label = document.getElementById("titleCount");
     $("#titleCount").css("color", "rgba(255, 255, 255, 0.3)");
     label.innerHTML =
       document.getElementById("dreamTitle").value.length + "/20";
-  };
+  });
   // back to home page
   $("#backBtnInPage1").click(function () {
     $("#backVideo").css("display", "flex");
@@ -164,12 +167,12 @@ $(document).ready(function () {
 
   // ·············Q1-2·················
   // text change with length
-  getLenDes = function () {
+  $("#description").bind("input propertychange", function () {
     var label = document.getElementById("descriptionCount");
     $("#descriptionCount").css("color", "rgba(255, 255, 255, 0.3)");
     label.innerHTML =
       document.getElementById("description").value.length + "/100";
-  };
+  });
   // back to page1-1
   $("#prev1-2").click(function () {
     $("#question1-1").attr(
