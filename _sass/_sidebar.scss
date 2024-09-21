@@ -13,7 +13,7 @@
   @include clearfix();
   margin-bottom: 1em;
   
-  @media screen and (max-width: $large) { // <large
+  @media screen and (max-width: $large) { // <=large
     display: flex; // add by czy
     margin-bottom: 4em; // modified by czy
   }
@@ -270,7 +270,7 @@
     white-space: nowrap;
     margin-bottom: 8px;
     
-    @media screen and (max-width: $large) {
+    @media not screen and (min-width: $large) {
       margin: 0;
       font-size: $type-size-4;
     }
@@ -289,7 +289,7 @@
       text-decoration: underline;
     }
 
-    @media screen and (max-width: $large) {
+    @media not screen and (min-width: $large) {
       margin: 0;
       padding-bottom: 0;
       padding-top: 0;
@@ -318,7 +318,7 @@
 
 // topbar on small screen
 .topbar {
-  @media screen and (max-width: $large) {
+  @media not screen and (min-width: $large) {
     height: min-content;
     width: auto;
     /* display */
@@ -338,20 +338,20 @@
   }
 
   .author__avatar {
-    @media screen and (max-width: $large){
+    @media not screen and (min-width: $large){
       grid-area: avatar;
       justify-self: end;
     }
   }
 
   .author__content {
-    @media screen and (max-width: $large){
+    @media not screen and (min-width: $large){
       grid-area: txt_content;
     }
   }
 
   .author__urls-wrapper {
-    @media screen and (max-width: $large){
+    @media not screen and (min-width: $large){
       grid-area: urls;
       align-self: end;
     }
