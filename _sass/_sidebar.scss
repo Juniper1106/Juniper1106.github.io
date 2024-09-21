@@ -289,7 +289,7 @@
       text-decoration: underline;
     }
 
-    @media not screen and (min-width: $large) {
+    @media not screen and (min-width: $large) { // prohibit including 860px
       margin: 0;
       padding-bottom: 0;
       padding-top: 0;
