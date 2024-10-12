@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Aug 9, 2024.
+Last updated: Oct 12, 2024.
 
 ## Publications
 
@@ -32,7 +32,7 @@ Last updated: Aug 9, 2024.
     </div>
     <div class="research-paper-author">
       <p>
-      Weitao You, <strong>Zhuoyi Cheng,</strong> Zirui Ma, Guang Yang, Zhibin Zhou & Lingyun Sun*
+      Weitao You, <strong>Zhuoyi Cheng,</strong> Zirui Ma, Guang Yang, Zhibin Zhou & Lingyun Sun
       </p>
     </div>
     <div class="research-paper-venue">
@@ -55,7 +55,7 @@ Last updated: Aug 9, 2024.
   <!-- img -->
   <div class="research-img">
     <div class="research-img-layout_box">
-      <img src="{{ base_path }}/images/paper_img/Now_You_Know_Me.webp">
+      <img src="{{ base_path }}/images/paper_img/IUI_25.webp">
     </div>
   </div>
   <!-- content-paper -->
@@ -63,18 +63,18 @@ Last updated: Aug 9, 2024.
     <div class="research-paper-title">
       <p>
         <!-- <a href=""> -->
-        Now You Know Me: Exploring the Adaptation and Application of Workspace Awareness Framework in Human-AI Design Collaboration
+          An Exploratory Study on How AI's Awareness Impacts Human-AI Collaboration in Product Design
         <!-- </a> -->
       </p>
     </div>
     <div class="research-paper-author">
       <p>
-      <strong>Zhuoyi Cheng</strong>, Pei Chen*, Jiayi Yao & Lingyun Sun
+      <strong>Zhuoyi Cheng</strong>, Pei Chen, Wenzheng Song, Hongbo Zhang, Zhuoshu Li & Lingyun Sun
       </p>
     </div>
     <div class="research-paper-venue">
       <p>
-      International Journal of Human-Computer Studies, Under Review
+      IUI 2025, Under Review
       </p>
     </div>
     <!-- <div class="research-paper-attachment">
@@ -91,7 +91,7 @@ Last updated: Aug 9, 2024.
   <!-- img -->
   <div class="research-img">
     <div class="research-img-layout_box">
-      <img src="{{ base_path }}/images/paper_img/design_journal.webp">
+      <img src="{{ base_path }}/images/paper_img/CHI_25.webp">
     </div>
   </div>
   <!-- content-paper -->
@@ -99,18 +99,54 @@ Last updated: Aug 9, 2024.
     <div class="research-paper-title">
       <p>
         <!-- <a href=""> -->
-          An Exploratory Study on How AI's Awareness Impacts Human-AI Collaboration in Product Design
+          CoExploreDS: Framing and Advancing Collaborative Design Space Exploration Between Human and AI
         <!-- </a> -->
       </p>
     </div>
     <div class="research-paper-author">
       <p>
-      <strong>Zhuoyi Cheng</strong>, Pei Chen*, Wenzheng Song, Hongbo Zhang, Zhuoshu Li & Lingyun Sun
+      Pei Chen, Jiayi Yao, <strong>Zhuoyi Cheng</strong>, Yichen Cai, Jiayang Li, Weitao You & Lingyun Sun
       </p>
     </div>
     <div class="research-paper-venue">
       <p>
-      The Design Journal, Under Review
+      CHI 2025, Under Review
+      </p>
+    </div>
+    <!-- <div class="research-paper-attachment">
+      <a class="attachment-btn" href="{{ base_path }}/files/HierVid.pdf">
+        <i class="bi bi-file-pdf-fill"></i>
+        PDF
+      </a>
+    </div> -->
+  </div>
+</div>
+<div class="separate-section"></div>
+
+<div class="research-basic">
+  <!-- img -->
+  <div class="research-img">
+    <div class="research-img-layout_box">
+      <img src="{{ base_path }}/images/paper_img/IJHCS.webp">
+    </div>
+  </div>
+  <!-- content-paper -->
+  <div class="research-content">
+    <div class="research-paper-title">
+      <p>
+        <!-- <a href=""> -->
+        Now You Know Me: Exploring the Adaptation and Application of Workspace Awareness Framework in Human-AI Design Collaboration
+        <!-- </a> -->
+      </p>
+    </div>
+    <div class="research-paper-author">
+      <p>
+      <strong>Zhuoyi Cheng</strong>, Pei Chen, Jiayi Yao & Lingyun Sun
+      </p>
+    </div>
+    <div class="research-paper-venue">
+      <p>
+      International Journal of Human-Computer Studies, Under Review
       </p>
     </div>
     <!-- <div class="research-paper-attachment">
