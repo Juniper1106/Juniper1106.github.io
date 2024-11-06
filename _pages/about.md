@@ -15,7 +15,7 @@ Hi! My name is Zhuoyi Cheng (程卓艺). I am a final year Master student in the
 
 My current research seeks to enable AI agent as a collaborator in the design context. I am interested in delineating human-AI collaborative dynamics in the collaboration process, which helps develop guidelines to navigate the design of human-AI collaborative systems. Prior to this, I was studying the narrative structures in the authoring process of interactive videos.
 
-<div class="latest-notification"></div>
+<div class="latest-notification">📣 I am actively applying for PhD positions, if you are interested in me, feel free to reach out!</div>
 
 <div class="separate-section common-paragraph"></div>
 
