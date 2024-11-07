@@ -1,7 +1,9 @@
 .latest-notification {
-  border: 1px solid #DC7C0B;
-  background: #FFF7E6;
+  @include themed() {
+    border: 1px solid t(notification-border);
+    background: t(notification-bg);
+    color: t(notification-txt);
+  }
   border-radius: 8px;
   padding: 8px 12px;
-  color: #692D00;
 }

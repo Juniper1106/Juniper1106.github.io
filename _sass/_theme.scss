@@ -6,9 +6,12 @@ $themes: (
         highlight: #dc7c0b,
         highlight-shadow: #be6c10,
         background-shadow: #1d2228,
-        research-paper-uthor-font-weight: 400,
+        research-paper-author-font-weight: 400,
         research-img-shadow: #1d2228,
         header_footer-divider: #f2f3f3,
+        notification-border: #dc7c0b,
+        notification-bg: #fff7e6,
+        notification-txt: #692d00,
     ),
 
     /* dark theme */
@@ -21,6 +24,9 @@ $themes: (
         research-paper-author-font-weight: 300,
         research-img-shadow: #1d2228,
         header_footer-divider: #33383d,
+        notification-border: #dd8831,
+        notification-bg: #4c3726,
+        notification-txt: #f8d8a9,
     ),
 );
 
