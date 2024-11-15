@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Oct 12, 2024.
+Last updated: Nov 15, 2024.
 
 ## Publications
 
@@ -37,7 +37,7 @@ Last updated: Oct 12, 2024.
     </div>
     <div class="research-paper-venue">
       <p>
-      International Journal of Human-Computer Interaction, Published in Nov 03, 2023
+      International Journal of Human-Computer Interaction, Volume 40, 2024 - Issue 22
       </p>
     </div>
     <div class="research-paper-attachment">
