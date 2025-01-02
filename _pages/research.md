@@ -10,9 +10,45 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Nov 15, 2024.
+Last updated: Jan 2, 2025.
 
 ## Publications
+
+<div class="research-basic">
+  <!-- img -->
+  <div class="research-img">
+    <div class="research-img-layout_box">
+      <img src="{{ base_path }}/images/paper_img/EcoSprout.webp">
+    </div>
+  </div>
+  <!-- content-paper -->
+  <div class="research-content">
+    <div class="research-paper-title">
+      <p>
+        <!-- <a href="https://doi.org/10.1080/10447318.2023.2267859"> -->
+        EcoSprout: A Smart Modular Toy for Engaging Children in AFNR Education
+        <!-- </a> -->
+      </p>
+    </div>
+    <div class="research-paper-author">
+      <p>
+      Xini Wu, <strong>Zhuoyi Cheng,</strong> Zihao Wang, Xuan Duan, Mingyan Wang, Yuge Qi & Ning Zou
+      </p>
+    </div>
+    <div class="research-paper-venue">
+      <p>
+      17th International Symposium on Computational Intelligence and Design (ISCID 2024), To Appear
+      </p>
+    </div>
+    <div class="research-paper-attachment">
+      <a class="attachment-btn" href="{{ base_path }}/files/EcoSprout.pdf">
+        <i class="bi bi-file-pdf-fill"></i>
+        PDF
+      </a>
+    </div>
+  </div>
+</div>
+<div class="separate-section"></div>
 
 <div class="research-basic">
   <!-- img -->
@@ -74,7 +110,7 @@ Last updated: Nov 15, 2024.
     </div>
     <div class="research-paper-venue">
       <p>
-      IUI 2025, Under Review
+      IUI 2025, Conditionally Accepted
       </p>
     </div>
     <!-- <div class="research-paper-attachment">
