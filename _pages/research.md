@@ -99,7 +99,7 @@ Last updated: Jan 2, 2025.
     <div class="research-paper-title">
       <p>
         <!-- <a href=""> -->
-          An Exploratory Study on How AI's Awareness Impacts Human-AI Collaboration in Product Design
+          An Exploratory Study on How AI Awareness Impacts Human-AI Design Collaboration
         <!-- </a> -->
       </p>
     </div>
