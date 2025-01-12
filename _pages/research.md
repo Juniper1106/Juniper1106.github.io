@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Jan 2, 2025.
+Last updated: Jan 12, 2025.
 
 ## Publications
 
@@ -113,12 +113,12 @@ Last updated: Jan 2, 2025.
       IUI 2025, Conditionally Accepted
       </p>
     </div>
-    <!-- <div class="research-paper-attachment">
-      <a class="attachment-btn" href="{{ base_path }}/files/HierVid.pdf">
+    <div class="research-paper-attachment">
+      <a class="attachment-btn" href="{{ base_path }}/files/IUI0112.pdf">
         <i class="bi bi-file-pdf-fill"></i>
         PDF
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 <div class="separate-section"></div>
