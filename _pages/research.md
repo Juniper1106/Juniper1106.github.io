@@ -73,7 +73,7 @@ Last updated: Jan 17, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      CHI 2025, Conditionally Accepted
+      CHI 2025, Accepted
       </p>
     </div>
     <div class="research-paper-attachment">
@@ -171,6 +171,43 @@ Last updated: Jan 17, 2025.
     <div class="research-paper-title">
       <p>
         <!-- <a href=""> -->
+        Transitioning Focus: Viewing Human-AI Collaboration as Mixed-focus Collaboration
+        <!-- </a> -->
+      </p>
+    </div>
+    <div class="research-paper-author">
+      <p>
+      <strong>Zhuoyi Cheng</strong>, Pei Chen, Yiwen Ren, Wenzheng Song & Lingyun Sun
+      </p>
+    </div>
+    <div class="research-paper-venue">
+      <p>
+      CHI 2025 Late Breaking Work , Under Review
+      </p>
+    </div>
+    <!-- <div class="research-paper-attachment">
+      <a class="attachment-btn" href="{{ base_path }}/files/HierVid.pdf">
+        <i class="bi bi-file-pdf-fill"></i>
+        PDF
+      </a>
+    </div> -->
+  </div>
+</div>
+<div class="separate-section"></div>
+
+
+<div class="research-basic">
+  <!-- img -->
+  <div class="research-img">
+    <div class="research-img-layout_box">
+      <img src="{{ base_path }}/images/paper_img/IJHCS.webp">
+    </div>
+  </div>
+  <!-- content-paper -->
+  <div class="research-content">
+    <div class="research-paper-title">
+      <p>
+        <!-- <a href=""> -->
         Now You Know Me: Exploring the Adaptation and Application of Workspace Awareness Framework in Human-AI Design Collaboration
         <!-- </a> -->
       </p>
@@ -193,4 +230,4 @@ Last updated: Jan 17, 2025.
     </div> -->
   </div>
 </div>
-<div class="separate-section"></div>
+<!-- <div class="separate-section"></div> -->
