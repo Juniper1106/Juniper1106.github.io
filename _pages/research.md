@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Jan 17, 2025.
+Last updated: Jan 23, 2025.
 
 ## Publications
 
@@ -163,7 +163,7 @@ Last updated: Jan 17, 2025.
   <!-- img -->
   <div class="research-img">
     <div class="research-img-layout_box">
-      <img src="{{ base_path }}/images/paper_img/IJHCS.webp">
+      <img src="{{ base_path }}/images/paper_img/CHI25LBW.webp">
     </div>
   </div>
   <!-- content-paper -->
