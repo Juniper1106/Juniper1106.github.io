@@ -25,7 +25,7 @@ Last updated: Jan 23, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href=""> -->
+        <!-- <a href="https://doi.org/10.1145/3708359.3712162"> -->
           An Exploratory Study on How AI Awareness Impacts Human-AI Design Collaboration
         <!-- </a> -->
       </p>
@@ -61,7 +61,7 @@ Last updated: Jan 23, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href=""> -->
+        <!-- <a href="https://doi.org/10.1145/3706598.3713869"> -->
           CoExploreDS: Framing and Advancing Collaborative Design Space Exploration Between Human and AI
         <!-- </a> -->
       </p>
