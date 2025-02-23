@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Feb 08, 2025.
+Last updated: Feb 23, 2025.
 
 ## Publications
 
@@ -73,7 +73,7 @@ Last updated: Feb 08, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      CHI 2025, Accepted
+      CHI 2025, To Appear
       </p>
     </div>
     <div class="research-paper-attachment">
@@ -156,9 +156,6 @@ Last updated: Feb 08, 2025.
     </div>
   </div>
 </div>
-<!-- <div class="separate-section"></div> -->
-
-## Manuscripts
 <div class="research-basic">
   <!-- img -->
   <div class="research-img">
@@ -182,7 +179,7 @@ Last updated: Feb 08, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      CHI 2025 Late Breaking Work , Under Review
+      CHI 2025 Late Breaking Work, To Appear
       </p>
     </div>
     <!-- <div class="research-paper-attachment">
@@ -193,9 +190,9 @@ Last updated: Feb 08, 2025.
     </div> -->
   </div>
 </div>
-<div class="separate-section"></div>
+<!-- <div class="separate-section"></div> -->
 
-
+## Manuscripts
 <div class="research-basic">
   <!-- img -->
   <div class="research-img">
