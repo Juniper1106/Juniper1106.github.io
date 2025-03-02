@@ -13,6 +13,41 @@ redirect_from:
 Last updated: Feb 23, 2025.
 
 ## Publications
+<div class="research-basic">
+  <!-- img -->
+  <div class="research-img">
+    <div class="research-img-layout_box">
+      <img src="{{ base_path }}/images/paper_img/CHI25LBW.webp">
+    </div>
+  </div>
+  <!-- content-paper -->
+  <div class="research-content">
+    <div class="research-paper-title">
+      <p>
+        <!-- <a href="https://doi.org/10.1145/3706599.3720109"> -->
+        Transitioning Focus: Viewing Human-AI Collaboration as Mixed-focus Collaboration
+        <!-- </a> -->
+      </p>
+    </div>
+    <div class="research-paper-author">
+      <p>
+      <strong>Zhuoyi Cheng</strong>, Pei Chen, Yiwen Ren, Wenzheng Song & Lingyun Sun
+      </p>
+    </div>
+    <div class="research-paper-venue">
+      <p>
+      CHI 2025 Late Breaking Work, To Appear
+      </p>
+    </div>
+    <!-- <div class="research-paper-attachment">
+      <a class="attachment-btn" href="{{ base_path }}/files/transitioningFocus.pdf">
+        <i class="bi bi-file-pdf-fill"></i>
+        PDF
+      </a>
+    </div> -->
+  </div>
+</div>
+<div class="separate-section"></div>
 
 <div class="research-basic">
   <!-- img -->
@@ -154,40 +189,6 @@ Last updated: Feb 23, 2025.
         PDF
       </a>
     </div>
-  </div>
-</div>
-<div class="research-basic">
-  <!-- img -->
-  <div class="research-img">
-    <div class="research-img-layout_box">
-      <img src="{{ base_path }}/images/paper_img/CHI25LBW.webp">
-    </div>
-  </div>
-  <!-- content-paper -->
-  <div class="research-content">
-    <div class="research-paper-title">
-      <p>
-        <!-- <a href=""> -->
-        Transitioning Focus: Viewing Human-AI Collaboration as Mixed-focus Collaboration
-        <!-- </a> -->
-      </p>
-    </div>
-    <div class="research-paper-author">
-      <p>
-      <strong>Zhuoyi Cheng</strong>, Pei Chen, Yiwen Ren, Wenzheng Song & Lingyun Sun
-      </p>
-    </div>
-    <div class="research-paper-venue">
-      <p>
-      CHI 2025 Late Breaking Work, To Appear
-      </p>
-    </div>
-    <!-- <div class="research-paper-attachment">
-      <a class="attachment-btn" href="{{ base_path }}/files/HierVid.pdf">
-        <i class="bi bi-file-pdf-fill"></i>
-        PDF
-      </a>
-    </div> -->
   </div>
 </div>
 <!-- <div class="separate-section"></div> -->
