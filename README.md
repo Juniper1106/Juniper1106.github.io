@@ -1,9 +1,10 @@
-# Welcome to [Juniper's website!](https://juniper1106.github.io/)
+# Welcome to [Juniper's website!](https://juniper1106.github.io/) ![Juniper's favicon](/images/favicon-32x32.png)
 
 This website is forked from [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io) and edited and maintained by Zhuoyi Cheng.
 
 # Updates
 
+- 03.04.2025, update my favicon!
 - 08.09.2024, enabled dark theme and modified contents.
 - 05.31.2024, modified the navbar, body, and sidebar layout, now they are fully responsive!!! (unless you device is smaller than 260px lol.)
 - 04.29.2024, build customized Research blocks.
