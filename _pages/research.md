@@ -39,12 +39,12 @@ Last updated: Feb 23, 2025.
       CHI 2025 Late Breaking Work, To Appear
       </p>
     </div>
-    <!-- <div class="research-paper-attachment">
+    <div class="research-paper-attachment">
       <a class="attachment-btn" href="{{ base_path }}/files/transitioningFocus.pdf">
         <i class="bi bi-file-pdf-fill"></i>
         PDF
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 <div class="separate-section"></div>
@@ -72,7 +72,7 @@ Last updated: Feb 23, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      IUI 2025, Conditionally Accepted
+      IUI 2025, To Appear
       </p>
     </div>
     <div class="research-paper-attachment">
