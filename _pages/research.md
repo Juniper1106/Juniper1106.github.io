@@ -60,9 +60,9 @@ Last updated: Feb 23, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href="https://doi.org/10.1145/3708359.3712162"> -->
+        <a href="https://doi.org/10.1145/3708359.3712162">
           An Exploratory Study on How AI Awareness Impacts Human-AI Design Collaboration
-        <!-- </a> -->
+        </a>
       </p>
     </div>
     <div class="research-paper-author">
