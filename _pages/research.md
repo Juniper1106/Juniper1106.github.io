@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Feb 23, 2025.
+Last updated: Mar 30, 2025.
 
 ## Publications
 <div class="research-basic">
@@ -72,7 +72,7 @@ Last updated: Feb 23, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      IUI 2025, To Appear
+      IUI 2025
       </p>
     </div>
     <div class="research-paper-attachment">
