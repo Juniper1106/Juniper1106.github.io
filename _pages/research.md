@@ -24,9 +24,9 @@ Last updated: Mar 30, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href="https://doi.org/10.1145/3706599.3720109"> -->
+        <a href="https://doi.org/10.1145/3706599.3720109">
         Transitioning Focus: Viewing Human-AI Collaboration as Mixed-focus Collaboration
-        <!-- </a> -->
+        </a>
       </p>
     </div>
     <div class="research-paper-author">
@@ -36,7 +36,7 @@ Last updated: Mar 30, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      CHI 2025 Late Breaking Work, To Appear
+      CHI 2025 Late Breaking Work
       </p>
     </div>
     <div class="research-paper-attachment">
@@ -96,9 +96,9 @@ Last updated: Mar 30, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href="https://doi.org/10.1145/3706598.3713869"> -->
+        <a href="https://doi.org/10.1145/3706598.3713869">
           CoExploreDS: Framing and Advancing Collaborative Design Space Exploration Between Human and AI
-        <!-- </a> -->
+        </a>
       </p>
     </div>
     <div class="research-paper-author">
@@ -108,7 +108,7 @@ Last updated: Mar 30, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      CHI 2025, To Appear
+      CHI 2025
       </p>
     </div>
     <div class="research-paper-attachment">
@@ -132,7 +132,7 @@ Last updated: Mar 30, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href="https://doi.org/10.1080/10447318.2023.2267859"> -->
+        <!-- <a href="https://doi.org/"> -->
         EcoSprout: A Smart Modular Toy for Engaging Children in AFNR Education
         <!-- </a> -->
       </p>
