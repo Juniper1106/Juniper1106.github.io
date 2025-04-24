@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Mar 30, 2025.
+Last updated: Apr 24, 2025.
 
 ## Publications
 <div class="research-basic">
