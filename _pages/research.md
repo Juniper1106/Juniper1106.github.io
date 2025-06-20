@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Apr 24, 2025.
+Last updated: Jun 20, 2025.
 
 ## Publications
 <div class="research-basic">
@@ -132,9 +132,9 @@ Last updated: Apr 24, 2025.
   <div class="research-content">
     <div class="research-paper-title">
       <p>
-        <!-- <a href="https://doi.org/"> -->
+        <a href="https://doi.org/10.1109/ISCID63852.2024.00079">
         EcoSprout: A Smart Modular Toy for Engaging Children in AFNR Education
-        <!-- </a> -->
+        </a>
       </p>
     </div>
     <div class="research-paper-author">
