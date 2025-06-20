@@ -144,7 +144,7 @@ Last updated: Jun 20, 2025.
     </div>
     <div class="research-paper-venue">
       <p>
-      17th International Symposium on Computational Intelligence and Design (ISCID 2024), To Appear
+      17th International Symposium on Computational Intelligence and Design (ISCID 2024)
       </p>
     </div>
     <div class="research-paper-attachment">
