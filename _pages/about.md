@@ -22,7 +22,7 @@ My current research seeks to enable AI agent as a collaborator in the design con
 # Education<a id="Education"></a>
 
 **Zhejiang University**<br>
-M.S. in Industrial Design Engineering, College of Software Technology<br>
+M.Eng in Mechanical Engineering, College of Software Technology<br>
 Advisor: Lingyun Sun<br>
 09/2022 - 03/2025
 
