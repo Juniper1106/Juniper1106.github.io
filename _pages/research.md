@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Research
-Last updated: Jun 20, 2025.
+Last updated: Sep 08, 2025.
 
 ## Publications
 <div class="research-basic">
@@ -189,43 +189,6 @@ Last updated: Jun 20, 2025.
         PDF
       </a>
     </div>
-  </div>
-</div>
-<!-- <div class="separate-section"></div> -->
-
-## Manuscripts
-<div class="research-basic">
-  <!-- img -->
-  <div class="research-img">
-    <div class="research-img-layout_box">
-      <img src="{{ base_path }}/images/paper_img/IJHCS.webp">
-    </div>
-  </div>
-  <!-- content-paper -->
-  <div class="research-content">
-    <div class="research-paper-title">
-      <p>
-        <!-- <a href=""> -->
-        Now You Know Me: Exploring the Adaptation and Application of Workspace Awareness Framework in Human-AI Design Collaboration
-        <!-- </a> -->
-      </p>
-    </div>
-    <div class="research-paper-author">
-      <p>
-      <strong>Zhuoyi Cheng</strong>, Pei Chen, Jiayi Yao & Lingyun Sun
-      </p>
-    </div>
-    <div class="research-paper-venue">
-      <p>
-      International Journal of Human-Computer Studies, Under Review
-      </p>
-    </div>
-    <!-- <div class="research-paper-attachment">
-      <a class="attachment-btn" href="{{ base_path }}/files/HierVid.pdf">
-        <i class="bi bi-file-pdf-fill"></i>
-        PDF
-      </a>
-    </div> -->
   </div>
 </div>
 <!-- <div class="separate-section"></div> -->
