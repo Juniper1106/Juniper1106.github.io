@@ -120,10 +120,16 @@
 
   a {
     text-decoration: unset;
+    @include themed() {
+      color: t(highlight);
+    }
 
     &:hover {
       // text-decoration: underline;
       text-decoration: unset;
+      @include themed() {
+        color: t(highlight-shadow);
+      }
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
